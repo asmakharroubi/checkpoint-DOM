@@ -1,0 +1,125 @@
+ 
+
+body{
+    background-color:#efd1bf;
+}
+#body{
+ margin: 0;
+ padding: 0;
+ /* background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF); */
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+}
+.container{
+    width: 85%;
+ height: 85%;
+ /* background-color: #ffffff; */
+ border-radius: 10px;
+ box-shadow: 0px 25px 40px #1687d933;
+ /* border: 1px solid yellow; */
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between; 
+align-items: center; 
+background-color:#f9ece5;
+}
+
+
+
+
+.box{
+    /* border: 1px solid red; */
+    /* height: 100px;
+    width: 300px; */
+    display: flex;
+    /* align-items: stretch;
+    align-content: space-between; */
+    /* flex-direction: column; */
+    height: 100px;
+    width: 100%;
+    justify-content: space-between;
+}
+.box1{
+    /* border: 1px solid red;  */
+    /* height: 100px;
+    width: 300px; */
+    display: flex;
+    /* align-items: stretch;
+    align-content: space-between; */
+    /* flex-direction: column; */
+    height: 100px;
+    width:100%;
+    justify-content: space-between;
+    
+}
+.faza{
+    /* border: 1px solid blue; */
+    align-self: center; 
+     
+    
+    
+}
+
+.faza2{
+    /* border: 1px solid black; */
+    align-self: center;
+    /* height: 50px;
+    width: 100px; */
+    text-align: center;
+}
+.espace{
+    /* border: 1px solid black;  */
+    align-self: center;
+    height: 50px;
+    width: 200px; 
+    text-align: center;
+}
+.espace2{
+    /* border: 1px solid black;  */
+    align-self: center;
+    height: 50px;
+    width: 100px; 
+    text-align: center;
+}
+.heart{
+    /* border: 1px solid blue; */
+    align-self: center;
+}
+.supprimer{
+    /* border: 1px solid black; */
+    align-self: center;
+    /* height: 50px;
+    width: 100px; */
+    text-align: center;
+}
+.price{
+    float: left; 
+    width: 12%;
+}
+img{
+    width: 100px;
+    height:120px;
+    align-items: center;
+}
+hr {
+    border: 1px solid grey;
+    
+    
+    width: 100%;
+    
+}
+h1{
+    color:#6e5f55
+}
+.plusbutton  {
+    color:green;
+}
+.removebutton {
+    color:red
+}
+.remove{
+    color:#8b0000 ;
+}

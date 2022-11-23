@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <!------ title ----->
+ <div>
+    <h1>
+        <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-bag" viewBox="0 0 16 16">
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+        Shopping Cart</h1>
+ </div> 
+         <!---- Cart content ------>
+ <div id="body">
+        <div class="container">
+
+            <div class="box1">
+            <div class="faza">
+                <h1 class="label" >Product</h1>
+            </div>
+            <div class="faza2">
+                <h1 class="label">Description</h1>
+            </div>
+            <div class="espace"> </div>
+            <div class="faza">   </div>
+            <div class="faza">
+                <h1 class="label">Quantity</h1>
+            </div>
+            <div class="espace"> </div>
+            <div class="faza">
+                <h1 class="label" >price</h1>
+            </div>
+            <div class="espace2">   </div>
+        </div>
+
+
+
+              <!----------- First Product ---------->
+        <div class="box">
+            <div class="faza">
+                <img src="https://i.pinimg.com/236x/49/a1/bc/49a1bce643285c91f1558c8464cc70c2.jpg" alt="img1">
+            </div>
+            <div class="faza2">
+                <h2>Doudoune</h2>
+                <p>short padded jacket</p>
+            </div>
+            <div class="faza">
+                <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="grey"  viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>
+            </div>
+            <div class="faza2">
+                <svg class="plusbutton" name="produit_1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="plusbutton" name="produit_1">+</button> -->
+            </div>
+            <div class="faza" id="produit_1_qty">0</div>
+            <div class="faza2">
+                <svg class="removebutton" name="produit_1" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-dash" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M5.5 10a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="removebutton" name="produit_1">-</button> -->
+            </div>
+            <!-- <label class="price" name="prix" >price</label> -->
+            <div class="faza" id="produit_1_prix">450 DT</div>
+            <div  class="supprimer">
+                <svg class="remove " xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-x" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6.146 8.146a.5.5 0 0 1 .708 0L8 9.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 10l1.147 1.146a.5.5 0 0 1-.708.708L8 10.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 10 6.146 8.854a.5.5 0 0 1 0-.708z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="remove ">x</button> -->
+            </div>
+        </div>
+
+<!----------- Second Product ---------->
+
+        <div class="box">
+            <div class="faza">
+                <img src="https://i.pinimg.com/236x/a1/af/9c/a1af9ca279fa6f8bb995fed386885aa1.jpg" alt="img2">
+            </div>
+            <div class="faza2">
+                <h2>Sweat</h2>
+                <p>Basic relaxed sweatshirt <br> with ribbed elastic <br> trims on the collar</p>
+            </div>
+            <div class="heart">
+                <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="grey"  viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>
+            </div>
+            <div class="faza2">
+                <svg class="plusbutton" name="produit_2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="plusbutton" name="produit_2">+</button> -->
+            </div>
+            <div class="faza" id="produit_2_qty">0</div>
+            <div class="faza2">
+                <svg class="removebutton" name="produit_2" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-dash" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M5.5 10a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="removebutton" name="produit_2">-</button> -->
+            </div>
+            <div class="faza" id="produit_2_prix">320 DT</div>
+            <div class="faza2">
+                <svg class="remove " xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-x" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6.146 8.146a.5.5 0 0 1 .708 0L8 9.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 10l1.147 1.146a.5.5 0 0 1-.708.708L8 10.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 10 6.146 8.854a.5.5 0 0 1 0-.708z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="btn btn-success">x</button> -->
+            </div>
+        </div>
+
+<!----------- Third Product ---------->
+
+        <div class="box">
+            <div class="faza">
+                <img src="https://i.pinimg.com/236x/8c/d0/fe/8cd0fe33e0544c5971a89ee18fbbedad.jpg" alt="img3">
+            </div>
+            <div class="faza2">
+                <h2>Pants</h2>
+                <p>high waistwide leg pants</p>
+            </div>
+            <div class="faza">
+                <svg class="heart" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="grey"  viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 1.314C12.438-3.248 23.534 4.735 8 15-7.534 4.736 3.562-3.248 8 1.314z"/>
+</svg>
+            </div>
+            <div class="faza2">
+                <svg class="plusbutton" name="produit_3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-plus" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M8 7.5a.5.5 0 0 1 .5.5v1.5H10a.5.5 0 0 1 0 1H8.5V12a.5.5 0 0 1-1 0v-1.5H6a.5.5 0 0 1 0-1h1.5V8a.5.5 0 0 1 .5-.5z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="plusbutton" name="produit_3">+</button> -->
+            </div>
+            <div class="faza" id="produit_3_qty">0</div>
+            <div class="faza2">
+                <svg class="removebutton" name="produit_3" xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-dash" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M5.5 10a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1H6a.5.5 0 0 1-.5-.5z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="removebutton" name="produit_3">-</button> -->
+            </div>
+            <div class="faza" id="produit_3_prix">160 DT</div>
+            <div class="faza2">
+                <svg class="remove " xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-bag-x" viewBox="0 0 16 16">
+  <path fill-rule="evenodd" d="M6.146 8.146a.5.5 0 0 1 .708 0L8 9.293l1.146-1.147a.5.5 0 1 1 .708.708L8.707 10l1.147 1.146a.5.5 0 0 1-.708.708L8 10.707l-1.146 1.147a.5.5 0 0 1-.708-.708L7.293 10 6.146 8.854a.5.5 0 0 1 0-.708z"/>
+  <path d="M8 1a2.5 2.5 0 0 1 2.5 2.5V4h-5v-.5A2.5 2.5 0 0 1 8 1zm3.5 3v-.5a3.5 3.5 0 1 0-7 0V4H1v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V4h-3.5zM2 5h12v9a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V5z"/>
+</svg>
+                <!-- <button type="button" class="btn btn-success">x</button> -->
+            </div>
+        </div>
+       <hr >
+        <div class="box">
+            <div class="faza"></div>
+            <div class="faza2"></div>
+            <div class="faza"></div>
+            <div class="faza2"></div>
+            <div class="faza">
+                <h1 class="label" >Total</h1>
+            </div>
+            <div class="faza2" id="total">0</div>
+            <div class="faza"></div>
+        </div>
+        
+        
+    </div> 
+    </div>
+     <script src="script.js"></script>
+</body>
+</html>
